@@ -3,3 +3,6 @@ pandas
 requests
 beautifulsoup4
 google-generativeai
+Flask
+gunicorn
+google-generativeai
