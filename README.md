@@ -59,12 +59,13 @@ To build and deploy an AI-powered recommendation system that suggests SHL assess
 
 
 📂 GitHub Repository
+
 All source code for the Flask API, Streamlit app, and Gemini prompt engineering is available on GitHub:  
 🔗 [https://github.com/muku1009/SHL_RECOMMENDER](https://github.com/muku1009/SHL_RECOMMENDER)
 
----
 
 💡 Gemini Prompt Strategy
+
 A structured prompt is sent to Gemini, requesting a JSON array of up to 10 SHL assessments with fields like:
 
 - `"Assessment Name"`, `"URL"`, `"Remote Testing Support"`, `"Adaptive/IRT Support"`, `"Duration"`, `"Test Type"`
@@ -73,12 +74,14 @@ Regex is used to cleanly extract the response in valid JSON format for further p
 
 
 🌐 Deployment
+
 - **API deployed using Render** and **Gunicorn** for production.
 - **Frontend hosted on Streamlit Cloud** for simplicity and accessibility.
 - Supports real-time inference with robust error handling.
 
 
 ✅ Conclusion
+
 This solution leverages Gemini AI, Flask, and Streamlit to deliver accurate, real-time SHL assessment suggestions from any job description.
 It is accessible via a user-friendly web interface and a robust API, offering both interactivity and integration potential.
 
