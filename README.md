@@ -1,7 +1,9 @@
 📝 Solution Approach Document – SHL Assessment Recommendation System
+
 By: Muskan Sangwan
 
 ✅ Objective 
+
 To build and deploy an AI-powered recommendation system that suggests SHL assessments based on a provided job description. This includes:
 
 - A **Flask-based REST API** for backend processing.
@@ -44,9 +46,10 @@ To build and deploy an AI-powered recommendation system that suggests SHL assess
     *(Returns API status as JSON)*
 
   - **Get Recommendations (POST)**  
-    🔁 `https://shl-recommender-dha7.onrender.com/recommendations`  
+    🔁  [https://shl-recommender-dha7.onrender.com/recommendations](https://shl-recommender-dha7.onrender.com/recommendations) 
     - Use **Postman** to test.
     - Set method to **POST**.
+    - Paste above URL.
     - Choose `Body > raw > JSON`, then paste your job description in this format:
 
     ```json
